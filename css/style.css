@@ -1,0 +1,96 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    bottom: 0px;
+    box-sizing: border-box;
+}
+
+
+
+main{
+    background-color: #E9AF64;
+    padding: 8px;
+    margin: auto;
+
+    min-width: 320px;
+    max-width: 800px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+
+section{
+    padding: 8px;
+
+    margin: auto;
+
+    margin-top: 36px;
+
+    min-width: 320px;
+    max-width: 800px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+.chamada{
+    font-family: "Noto Serif Display", serif;
+    font-optical-sizing: auto;
+    color: #181D23;
+}
+
+
+.imgChamada{
+    width: auto;
+}
+
+
+#autofrase{
+    background-color: #E9AF64;
+    border-radius:10px ;
+}
+
+.stitch{
+    background-color: #E9AF64;
+    border-radius: 10px;
+}
+
+
+.grid_fotos{
+    width: 380px;
+    height: 352px;
+}
+
+.grid_config{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+
+@media screen and (max-width: 420px) {
+    body {
+      font-size: 14px;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    
+}
