@@ -63,6 +63,10 @@ p{
     width: auto;
 }
 
+.principal_img{
+    width: 320px;
+}
+
 
 #autofrase{
     background-color: #E9AF64;
