@@ -12,7 +12,8 @@ main{
     padding: 8px;
     margin: auto;
 
-    min-width: 320px;
+
+    min-width: 100%;
     max-width: 800px;
 
 
