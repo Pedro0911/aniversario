@@ -72,6 +72,14 @@ p{
 #autofrase{
     background-color: #E9AF64;
     border-radius:10px ;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
 }
 
 .stitch{
@@ -91,6 +99,8 @@ p{
     justify-content: space-between;
     margin-bottom: 14px;
 }
+
+
 
 
 @media screen and (max-width: 420px) {
@@ -123,3 +133,12 @@ p{
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
 }
+
+.frase_amor {
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+  }
+  
+  .frase_amor.fade-in {
+    opacity: 1;
+  }
